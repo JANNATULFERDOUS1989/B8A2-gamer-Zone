@@ -1,0 +1,193 @@
+.body {
+    font-family: 'lato', sans-serif;
+}
+
+.nav-container {
+    
+
+    max-width: 1500px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+}
+.nav-iteam-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container {
+  
+    display: flex;
+    justify-content: space-around;
+
+    width: 20%;
+
+}
+
+.logo-container-img {
+  
+    width: 20px solid purple;
+    object-fit: cover;
+
+}
+
+.logo-container p {
+
+    
+    color: #a60a82;
+    font: size 30px;
+    font-size: xx-large;
+}
+
+.nav-iteam-container {
+    border: 1px solid blueviolet;
+    display: inline-flex;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    margin-right: 15px;
+
+    width: 50%;
+
+}
+
+.nav-iteam-container a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.banner-container {
+  
+    margin: 50px auto 0;
+    max-width: 1000px;
+    min-height: 50px;
+    display: flex;
+
+}
+
+.banner text {
+    
+    width: 50%;
+    background-color: color gradient;
+
+
+}
+
+.banner-img {
+  
+    width: 100%;
+    height: auto;
+}
+
+.banner-button {
+    background-color: palevioletred;
+    padding: 10px 20px;
+  
+    color: #a60a82;
+    text-decoration-color: aliceblue;
+    align-items: end;
+
+}
+
+.grid container {
+    display: grid;
+    
+}
+
+.banner-container {
+    flex-direction: row;
+}
+
+.banner-text,
+banner-img {
+    width: 50%;
+
+}
+
+.banner-text h1 {
+    font-size: 30px;
+}
+
+.banner-text p {
+    font-size: 25;
+
+}
+
+.game {
+    height: auto;
+    width: 30%;
+    display: flex;
+}
+
+
+.play {
+    
+    max-width: 1600px;
+    min-height: 200px;
+    margin: auto;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    font-size: xx-large;
+
+
+
+}
+
+.play-img {
+
+    width: 70px;
+    height: 50%;
+    border: 2px solid blueviolet;
+    bottom: 40px;
+    right: 30px;
+    justify-content: right;
+    align-items: end;
+    position: absolute;
+}
+
+.playing-img-img {
+    width: 30px;
+    height: -40%;
+}
+
+.icon {
+    border: 5px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+}
+
+.footer {
+    margin: 0px;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+
+
+
+}
+
+.footer-nav {
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.social-icon {
+    display: flex;
+}
